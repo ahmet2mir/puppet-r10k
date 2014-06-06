@@ -82,7 +82,7 @@ class common::profiles::puppetmaster(
       include puppetboard
 
       # No anchor in puppetboard module, first resource is group
-      Package['virtualenv']->Group['puppetboard']
+      Package['python-virtualenv']->Group['puppetboard']
 
       # Access Puppetboard vhost
       class { 'puppetboard::apache::vhost':
