@@ -9,6 +9,5 @@ packages:
     tree: { ensure: present }
     python-pip: { ensure: present }
     rubygems: { ensure: present }
-
-    virtualenv: { ensure: present, provider: pip, require: Package[python-pip] }
+    python-virtualenv: { ensure: present }
 
