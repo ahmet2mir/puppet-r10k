@@ -12,6 +12,7 @@ mod 'theforeman/concat_native'
 mod 'puppetlabs/puppetdb'
 mod 'puppetlabs/postgresql'
 mod 'puppetlabs/inifile'
+mod 'puppetlabs/mcollective'
 
 mod 'nibalizer/puppetboard'
 mod "puppetlabs/vcsrepo", "0.1.2"
