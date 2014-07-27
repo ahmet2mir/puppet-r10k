@@ -17,6 +17,8 @@ mod 'puppetlabs/mcollective'
 mod 'nibalizer/puppetboard'
 mod "puppetlabs/vcsrepo", "0.1.2"
 mod "stankevich/python"
+mod 'spotify/puppetexplorer'
+
 
 #mod "common",
 #  :git => "https://github.com/lbernail/puppet-common.git"
